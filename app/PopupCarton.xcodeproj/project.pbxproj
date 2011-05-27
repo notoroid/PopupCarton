@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87B30CA6138F9530007E2BBE /* Package.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B30CA2138F9530007E2BBE /* Package.png */; };
+		87B30CA7138F9530007E2BBE /* Package2.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B30CA3138F9530007E2BBE /* Package2.png */; };
+		87B30CA8138F9530007E2BBE /* Package2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B30CA4138F9530007E2BBE /* Package2@2x.png */; };
+		87B30CA9138F9530007E2BBE /* Package@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B30CA5138F9530007E2BBE /* Package@2x.png */; };
 		87C8C165138A5AB200B287AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C8C164138A5AB200B287AE /* UIKit.framework */; };
 		87C8C167138A5AB200B287AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C8C166138A5AB200B287AE /* Foundation.framework */; };
 		87C8C169138A5AB200B287AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C8C168138A5AB200B287AE /* CoreGraphics.framework */; };
@@ -16,12 +20,14 @@
 		87C8C178138A5AB200B287AE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C8C176138A5AB200B287AE /* MainWindow.xib */; };
 		87C8C17B138A5AB200B287AE /* PopupCartonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8C17A138A5AB200B287AE /* PopupCartonViewController.m */; };
 		87C8C17E138A5AB200B287AE /* PopupCartonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C8C17C138A5AB200B287AE /* PopupCartonViewController.xib */; };
-		87C8C18B138A5AC400B287AE /* Package.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C8C187138A5AC400B287AE /* Package.png */; };
-		87C8C18C138A5AC400B287AE /* Package@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C8C188138A5AC400B287AE /* Package@2x.png */; };
 		87FF808E138A849100F6D5CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FF808D138A849100F6D5CD /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87B30CA2138F9530007E2BBE /* Package.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Package.png; sourceTree = "<group>"; };
+		87B30CA3138F9530007E2BBE /* Package2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Package2.png; sourceTree = "<group>"; };
+		87B30CA4138F9530007E2BBE /* Package2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Package2@2x.png"; sourceTree = "<group>"; };
+		87B30CA5138F9530007E2BBE /* Package@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Package@2x.png"; sourceTree = "<group>"; };
 		87C8C160138A5AB200B287AE /* PopupCarton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupCarton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C8C164138A5AB200B287AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		87C8C166138A5AB200B287AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,8 +42,6 @@
 		87C8C179138A5AB200B287AE /* PopupCartonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupCartonViewController.h; sourceTree = "<group>"; };
 		87C8C17A138A5AB200B287AE /* PopupCartonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupCartonViewController.m; sourceTree = "<group>"; };
 		87C8C17D138A5AB200B287AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PopupCartonViewController.xib; sourceTree = "<group>"; };
-		87C8C187138A5AC400B287AE /* Package.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Package.png; sourceTree = "<group>"; };
-		87C8C188138A5AC400B287AE /* Package@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Package@2x.png"; sourceTree = "<group>"; };
 		87FF808D138A849100F6D5CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -56,10 +60,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87B30CA1138F9530007E2BBE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87B30CA2138F9530007E2BBE /* Package.png */,
+				87B30CA3138F9530007E2BBE /* Package2.png */,
+				87B30CA4138F9530007E2BBE /* Package2@2x.png */,
+				87B30CA5138F9530007E2BBE /* Package@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		87C8C155138A5AB200B287AE = {
 			isa = PBXGroup;
 			children = (
-				87FF808D138A849100F6D5CD /* QuartzCore.framework */,
 				87C8C16A138A5AB200B287AE /* PopupCarton */,
 				87C8C163138A5AB200B287AE /* Frameworks */,
 				87C8C161138A5AB200B287AE /* Products */,
@@ -77,6 +91,7 @@
 		87C8C163138A5AB200B287AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87FF808D138A849100F6D5CD /* QuartzCore.framework */,
 				87C8C164138A5AB200B287AE /* UIKit.framework */,
 				87C8C166138A5AB200B287AE /* Foundation.framework */,
 				87C8C168138A5AB200B287AE /* CoreGraphics.framework */,
@@ -87,7 +102,6 @@
 		87C8C16A138A5AB200B287AE /* PopupCarton */ = {
 			isa = PBXGroup;
 			children = (
-				87C8C184138A5AC400B287AE /* Resources */,
 				87C8C173138A5AB200B287AE /* PopupCartonAppDelegate.h */,
 				87C8C174138A5AB200B287AE /* PopupCartonAppDelegate.m */,
 				87C8C176138A5AB200B287AE /* MainWindow.xib */,
@@ -95,6 +109,7 @@
 				87C8C17A138A5AB200B287AE /* PopupCartonViewController.m */,
 				87C8C17C138A5AB200B287AE /* PopupCartonViewController.xib */,
 				87C8C16B138A5AB200B287AE /* Supporting Files */,
+				87B30CA1138F9530007E2BBE /* Resources */,
 			);
 			path = PopupCarton;
 			sourceTree = "<group>";
@@ -108,16 +123,6 @@
 				87C8C171138A5AB200B287AE /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		87C8C184138A5AC400B287AE /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				87C8C187138A5AC400B287AE /* Package.png */,
-				87C8C188138A5AC400B287AE /* Package@2x.png */,
-			);
-			name = Resources;
-			path = ../../Godray/Godray/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,8 +178,10 @@
 				87C8C16F138A5AB200B287AE /* InfoPlist.strings in Resources */,
 				87C8C178138A5AB200B287AE /* MainWindow.xib in Resources */,
 				87C8C17E138A5AB200B287AE /* PopupCartonViewController.xib in Resources */,
-				87C8C18B138A5AC400B287AE /* Package.png in Resources */,
-				87C8C18C138A5AC400B287AE /* Package@2x.png in Resources */,
+				87B30CA6138F9530007E2BBE /* Package.png in Resources */,
+				87B30CA7138F9530007E2BBE /* Package2.png in Resources */,
+				87B30CA8138F9530007E2BBE /* Package2@2x.png in Resources */,
+				87B30CA9138F9530007E2BBE /* Package@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
